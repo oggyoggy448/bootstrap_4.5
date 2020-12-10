@@ -1,0 +1,148 @@
+<footer id="footer">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=444177396566651&autoLogAppEvents=1" nonce="XPw3MZUm"></script>
+ <!-- Load Facebook SDK for JavaScript -->
+     <div id="fb-root"></div>
+     <script>
+       window.fbAsyncInit = function() {
+         FB.init({
+           xfbml            : true,
+           version          : 'v9.0'
+         });
+       };
+    
+       (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));</script>
+    
+     <!-- Your Chat Plugin code -->
+     <div class="fb-customerchat"
+       attribution=setup_tool
+       page_id="113826713695283">
+     </div> 
+
+    <style>
+        .whatsapp{
+             position: fixed;
+              left: 1rem;
+              bottom: 0.1rem;
+              font-size: 4rem;
+              
+        }
+    </style>
+    <!--load whatsapp-->
+    <a href="https://wa.me/923349376619" class="whatsapp"><img src="https://img.icons8.com/color/48/000000/whatsapp--v4.png"/> </a>
+    
+    
+    <div class="footer-top py-5">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="footer-widget-wrap">
+                        <h4>About US</h4>
+                        <p class="footer-about-us-desc">
+                            Lyskills is a LMS platform that connect Teachers with Students globally. Teachers create high quality course and present them in super easy way.
+                            <!--@if (!empty($desc)) {{$desc}} @endif -->
+                        </p>
+                        <p class="footer-social-icon-wrap">
+                            <a href="https://www.facebook.com/Lyskills-113826713695283"><i class="la la-facebook"></i> </a>
+                            <a href="https://www.instagram.com/lyskills/"><i class="la la-instagram"></i> </a>
+                            <a href="https://www.youtube.com/channel/UCa-M0ECvodmuNP8wlzm_YIQ"><i class="la la-youtube"></i> </a>
+                            <a href="https://wa.me/923349376619"><i class="la la-whatsapp"></i> </a>
+                            <a href="https://www.linkedin.com/in/ly-skills-97b88a1ba/"><i class="la la-linkedin"></i> </a>
+                            <script src="https://apis.google.com/js/platform.js"></script>
+                            <div class="g-ytsubscribe" data-channelid="UCa-M0ECvodmuNP8wlzm_YIQ" data-layout="default" data-count="default"></div>
+                            <div class="fb-page d-none d-md-block" data-href="https://www.facebook.com/Lyskills-113826713695283/?modal=admin_todo_tour" data-tabs="" data-width="180" data-height="100" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Lyskills-109782594226263" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Lyskills-109782594226263">Lyskills</a></blockquote></div>
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="footer-widget-wrap contact-us-widget-wrap">
+                        <h4>Our Office</h4>
+                        <p class="footer-address">
+                         Ground floor Akram Plaza, Muslim Town, Ferozepur Road, near Baba Qulfi wala, Lahore
+                        </p>
+                        <h4>Head Office</h4>
+                        <p class="footer-address">
+                            International House, 12 Constance Street, London, E16 2DQ
+                        </p>
+
+                        <!-- 
+                        <p class="mb-0"> Tel: +923349376619 </p>
+                        <p class="mb-0"> bittrainings1@gmail.com </p>
+                        -->
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6">
+                    <div class="footer-widget-wrap link-widget-wrap">
+
+                        <ul class="footer-links">
+                            <li><a href="{{route('home')}}">{{__t('home')}}</a> </li>
+                            <li><a href="{{route('dashboard')}}">{{__t('dashboard')}}</a> </li>
+                            <li><a href="{{route('courses')}}">{{__t('courses')}}</a> </li>
+                            <li><a href="{{route('popular_courses')}}">{{__t('popular_courses')}}</a> </li>
+                            <li><a href="{{route('featured_courses')}}">{{__t('featured_courses')}}</a> </li>
+                            <li><a href="{{route('blog')}}">{{__t('blog')}}</a> </li>
+                            <li><a href="{{route('faqs')}}">{{__t('faq')}}</a> </li>
+                            <li><a href="https://lyskills.com/about-us">{{__t('about_us')}}</a> </li>
+                            <li><a href="{{route('register')}}">{{__t('signup')}}</a> </li>
+                            <li><a href="https://lyskills.com/contact-us">Contact Us</a> </li>
+                            <li><a href="{{route('registerInstructor')}}">Instructor Sign Up</a> </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-bottom py-5">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                        <div class="footer-bottom-left d-flex">
+                            <span class="ml-4">Copyright © 2020 <span class="text-warning" >lyskills.</span> All rights reserved.</span>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="footer-bottom-right flex-grow-1 mt-3 mt-md-0 ml-3 ml-md-0 text-md-right">
+                            <ul class="footer-bottom-right-links">
+                                <li>
+                                    <a href="{{route('post_proxy', get_option('terms_of_use_page'))}}">
+                                        {{__t('terms_of_use')}}
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{route('post_proxy', get_option('privacy_policy_page'))}}">
+                                        {{__t('privacy_policy')}} &amp; {{__t('cookie_policy')}}
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</footer>
